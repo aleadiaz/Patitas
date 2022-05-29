@@ -116,29 +116,44 @@ ul {
     display: flex;
     justify-content: center;
 }
+
 .lupita-image{
     height: 200px;
 }
-
+.lupita-image:hover{
+    transform: scale(2);
+}
 .oddi-image{
     height: 200px;
+}
+.oddi-image:hover{
+    transform: scale(2);
 }
 
 .milo-image{
     height: 200px;
 }
-
+.milo-image:hover{
+    transform: scale(2);
+}
 .zimba-image{
     height: 200px;
 }
-.perro-image{
-    height: 200px;
+.zimba-image:hover{
+    transform: scale(2);
 }
 .polo-image{
     height: 200px;
 }
+.polo-image:hover{
+    transform: scale(2);
+}
+
 .tomi-image{
     height: 200px;
+}
+.tomi-image:hover{
+    transform: scale(2);
 }
 
 /*INFORMACION SOBRE LA ESTADÍA*/
@@ -166,6 +181,7 @@ ul {
 }
 .perro-image{
     background-color: #fdd33f;
+    height: 200px;
 }
 
 /*DONDE ESTAMOS*/
