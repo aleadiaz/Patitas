@@ -1,0 +1,230 @@
+body{
+    background-color: white;
+}
+
+/*logo*/
+.grid-definicion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+    }
+.logo-style{
+    height: 100px;
+    padding: 0px;
+    
+}
+.logo-ubicacion{
+grid-column: 2;
+height: 100%;
+margin-bottom: 5px;
+}
+/*foto slogan*/
+.grid-style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 150px;
+    margin-bottom: 5px;
+    
+}
+.slogan{
+    height: 200px;
+    padding: 0px;
+    
+}
+/*Por favor necesito que me ayudes a que la foto del slogan quede al mismo nivel que la navbar de margen derecho */
+.slogan-tipo{
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-bottom: 0px;
+}
+   
+a{
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+ul {
+    list-style: none;
+    border: 5px solid;
+   
+}
+    
+/*NAV BAR*/
+.menu-grid{
+    display: grid;
+    list-style: none;
+    grid-area: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    
+}
+.menu{
+    color: black;
+    width: 95%;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Montserrat', sans-serif;
+}
+/*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
+.mi-style{
+    margin: 0px 0px 0px 0px;
+    background-color: #efd19f;
+    font-family: 'Square Peg', cursive;
+    display: flex;
+    justify-content: center;
+}
+.titulomi-style{
+    margin: 0px;
+}
+
+.info-mabe{
+    display: flex;
+    justify-content: center;
+}
+.mabe-image{
+    height: 200px;
+}
+/*texto de acerca de mi*/
+/*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
+.reseña{
+    background-color: #fdd33f;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*HUESPEES*/
+.huespedes-style{
+    margin: 10px 0px 0px 0px;
+    background-color: #efd19f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.huespedes-photos{
+    display: flex;
+    justify-content: center;
+}
+.lupita-image{
+    height: 200px;
+}
+
+.oddi-image{
+    height: 200px;
+}
+
+.milo-image{
+    height: 200px;
+}
+
+.zimba-image{
+    height: 200px;
+}
+.perro-image{
+    height: 200px;
+}
+.polo-image{
+    height: 200px;
+}
+.tomi-image{
+    height: 200px;
+}
+
+/*INFORMACION SOBRE LA ESTADÍA*/
+.informacion-flex{
+    display: flex;
+    justify-content: center;
+}
+.informacion{
+    background-color: #fdd33f;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.informacion-style{
+    margin: 10px 0px 0px 0px;
+    background-color: #efd19f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.tituloinfo-style{
+    margin: 0px;
+}
+.perro-image{
+    background-color: #fdd33f;
+}
+
+/*DONDE ESTAMOS*/
+.estamos-style{
+    margin: 10px 0px 0px 0px;
+    background-color: #efd19f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif
+}
+.ubicacion-image{
+    height: 200px;
+    background-color: #fdd33f;
+    margin: 0px;
+}
+.mapa-image{
+    height: 200px;
+   
+}
+
+.tituloestamos-style{
+    margin: 0px;
+}
+
+/*NUESTRS REDES*/
+.redes-style{
+    margin: 10px 0px 0px 0px;
+    background-color: #efd19f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.logos-redes{
+    display: flex;
+    justify-content: center;
+}
+.tituloredes-style{
+    margin: 0px;
+}
+.foto-redes1{
+    height: 200px;
+    display: flex;
+    justify-content: left;
+}
+.foto-redes2{
+    height: 200px;
+    display: flex;
+    justify-content: right;
+}
+.ig-style{
+    height: 50px;
+    cursor: pointer;
+    
+}
+.fb-style{
+    height: 50px;
+    cursor: pointer;
+}
+.wa-style{
+    height: 50px;
+    cursor: pointer;
+}
