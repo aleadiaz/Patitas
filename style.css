@@ -77,8 +77,8 @@ ul {
 /*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
 .mi-style{
     margin: 0px 0px 0px 0px;
-    background-color: #efd19f;
-    font-family: 'Square Peg', cursive;
+    background-color: #fdd33f;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -89,17 +89,17 @@ ul {
 .info-mabe{
     display: flex;
     justify-content: center;
+    background-color: #fdd33f;
 }
 .mabe-image{
-    height: 200px;
+    height: 23rem;
 }
 /*texto de acerca de mi*/
 /*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
 .reseña{
     background-color: #fdd33f;
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
+    margin: 120px 0px 0px 0px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -107,7 +107,7 @@ ul {
 /*HUESPEES*/
 .huespedes-style{
     margin: 10px 0px 0px 0px;
-    background-color: #efd19f;
+    background-color: #a6a6a6;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -115,6 +115,7 @@ ul {
 .huespedes-photos{
     display: flex;
     justify-content: center;
+    background-color: #a6a6a6;
 }
 
 .lupita-image{
@@ -163,42 +164,52 @@ ul {
 }
 .informacion{
     background-color: #fdd33f;
-    margin: 0px;
-    display: flex;
-    justify-content: flex-end;
+    height: 15rem;
+    margin-top: 50px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .informacion-style{
-    margin: 10px 0px 0px 0px;
-    background-color: #efd19f;
+    margin: 0px 0px 0px 0px;
+    background-color: #fdd33f;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
 }
 .tituloinfo-style{
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
+    background-color: #fdd33f;
+    display: flex;
+    justify-content: center;
 }
 .perro-image{
     background-color: #fdd33f;
-    height: 200px;
+    height: 23rem;
+    margin-bottom: 0px;
 }
 
 /*DONDE ESTAMOS*/
+.ubi-ubi{
+    display: flex;
+    justify-content: space-around;
+    background-color: #a6a6a6;
+}
 .estamos-style{
     margin: 10px 0px 0px 0px;
-    background-color: #efd19f;
+    background-color: #a6a6a6;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif
 }
 .ubicacion-image{
-    height: 200px;
-    background-color: #fdd33f;
-    margin: 0px;
+    height: 23rem;
+    background-color: #a6a6a6;
+    margin-right: 50px;
+    
 }
 .mapa-image{
-    height: 200px;
+   height: 15rem;
+   margin-top: 50px;
    
 }
 
@@ -207,40 +218,39 @@ ul {
 }
 
 /*NUESTRS REDES*/
+.redes-color-fondo{
+    background-color: #fdd33f;
+    display: flex;
+    justify-content:center
+}
 .redes-style{
     margin: 10px 0px 0px 0px;
-    background-color: #efd19f;
+    background-color: #fdd33f;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
-.logos-redes{
-    display: flex;
-    justify-content: center;
-}
+
 .tituloredes-style{
     margin: 0px;
 }
-.foto-redes1{
-    height: 200px;
-    display: flex;
-    justify-content: left;
+.foto-redes3{
+    height: 23rem;
+     
 }
-.foto-redes2{
-    height: 200px;
-    display: flex;
-    justify-content: right;
-}
+
 .ig-style{
     height: 50px;
     cursor: pointer;
-    
+    margin-top: 40px;
 }
 .fb-style{
     height: 50px;
     cursor: pointer;
+    margin-top: 40px;
 }
 .wa-style{
     height: 50px;
     cursor: pointer;
+    margin-top: 40px;
 }
