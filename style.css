@@ -33,6 +33,10 @@ margin-bottom: 5px;
     
 }
 /*Por favor necesito que me ayudes a que la foto del slogan quede al mismo nivel que la navbar de margen derecho */
+@font-face {
+    font-family: Brittany;
+    src: url('BrittanySignature.ttf');
+}
 .slogan-tipo{
     width: 100%;
     height: 100%;
@@ -78,9 +82,10 @@ ul {
 .mi-style{
     margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
+    font-family: Brittany;
+    
 }
 .titulomi-style{
     margin: 0px;
@@ -110,7 +115,7 @@ ul {
     background-color: #a6a6a6;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: brittany;
 }
 .huespedes-photos{
     display: flex;
@@ -169,7 +174,7 @@ ul {
 }
 .informacion{
     background-color: #fdd33f;
-    height: 15rem;
+    height: 100%;
     margin-top: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -186,6 +191,7 @@ ul {
     background-color: #fdd33f;
     display: flex;
     justify-content: center;
+    font-family: brittany;
 }
 .perro-image{
     background-color: #fdd33f;
@@ -204,7 +210,7 @@ ul {
     background-color: #a6a6a6;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif
+    font-family: brittany;
 }
 .ubicacion-image{
     height: 23rem;
@@ -233,7 +239,7 @@ ul {
     background-color: #fdd33f;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: brittany;
 }
 
 .tituloredes-style{
