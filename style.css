@@ -24,7 +24,7 @@ margin-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px 150px;
-    margin-bottom: 5px;
+    margin: 0px;
     
 }
 .slogan{
@@ -33,6 +33,10 @@ margin-bottom: 5px;
     
 }
 /*Por favor necesito que me ayudes a que la foto del slogan quede al mismo nivel que la navbar de margen derecho */
+@font-face {
+    font-family: Brittany;
+    src: url('BrittanySignature.ttf');
+}
 .slogan-tipo{
     width: 100%;
     height: 100%;
@@ -40,7 +44,8 @@ margin-bottom: 5px;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    margin-bottom: 0px;
+    margin: 0px;
+
 }
    
 a{
@@ -75,17 +80,17 @@ ul {
     font-family: 'Montserrat', sans-serif;
 }
 /*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
-.mi-style{
+.titulomi-style{
     margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
-    font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    font-family: Brittany;
+    font-size: xxx-large;
 }
-.titulomi-style{
-    margin: 0px;
+.tituli-ubicacion{
+    margin: 0px 0px 0px 0px;
 }
-
 .info-mabe{
     display: flex;
     justify-content: center;
@@ -104,28 +109,37 @@ ul {
     
 }
 
-/*HUESPEES*/
+/*HUESPEDES*/
+.titulo-huespedes-style{
+    margin: 0px;
+}
 .huespedes-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #a6a6a6;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: brittany;
+    font-size: xxx-large;
 }
-.huespedes-photos{
-    display: flex;
-    justify-content: center;
+
+.huespedes{
     background-color: #a6a6a6;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
 }
+
 
 .lupita-image{
     height: 200px;
+    transition: 1s;
 }
 .lupita-image:hover{
     transform: scale(2);
 }
 .oddi-image{
     height: 200px;
+    transition: 1s;
 }
 .oddi-image:hover{
     transform: scale(2);
@@ -133,30 +147,88 @@ ul {
 
 .milo-image{
     height: 200px;
+    transition: 1s;
 }
 .milo-image:hover{
     transform: scale(2);
 }
 .zimba-image{
     height: 200px;
+    transition: 1s;
 }
 .zimba-image:hover{
     transform: scale(2);
 }
 .polo-image{
     height: 200px;
+    transition: 1s;
 }
 .polo-image:hover{
     transform: scale(2);
 }
-
 .tomi-image{
     height: 200px;
+    transition: 1s;
 }
 .tomi-image:hover{
     transform: scale(2);
 }
-
+.alma-image{
+    height: 200px;
+    transition: 1s;
+}
+.alma-image:hover{
+    transform: scale(2);
+}
+.gala-image{
+    height: 200px;
+    transition: 1s;
+}
+.gala-image:hover{
+    transform: scale(2);
+}
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.mononu-image{
+    height: 200px;
+    transition: 1s;
+}
+.mononu-image:hover{
+    transform: scale(2);
+}
+.napoleon-image{
+    height: 200px;
+    transition: 1s;
+}
+.napoleon-image:hover{
+    transform: scale(2);
+}
+.oddie-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddie-image:hover{
+    transform: scale(2);
+}
+.roma-image{
+    height: 200px;
+    transition: 1s;
+}
+.roma-image:hover{
+    transform: scale(2);
+}
+.williams-image{
+    height: 200px;
+    transition: 1s;
+}
+.williams-image:hover{
+    transform: scale(2);
+}
 /*INFORMACION SOBRE LA ESTADÍA*/
 .informacion-flex{
     display: flex;
@@ -164,8 +236,8 @@ ul {
 }
 .informacion{
     background-color: #fdd33f;
-    height: 15rem;
-    margin-top: 50px;
+    height: 100%;
+    margin-top: 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -177,10 +249,12 @@ ul {
     justify-content: center;
 }
 .tituloinfo-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
     display: flex;
     justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
 }
 .perro-image{
     background-color: #fdd33f;
@@ -195,11 +269,12 @@ ul {
     background-color: #a6a6a6;
 }
 .estamos-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #a6a6a6;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif
+    font-family: brittany;
+    font-size: xxx-large;
 }
 .ubicacion-image{
     height: 23rem;
@@ -224,11 +299,12 @@ ul {
     justify-content:center
 }
 .redes-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: brittany;
+    font-size: xxx-large;
 }
 
 .tituloredes-style{
