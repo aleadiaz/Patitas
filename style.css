@@ -79,16 +79,13 @@ ul {
     font-family: 'Montserrat', sans-serif;
 }
 /*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
-.mi-style{
+.titulomi-style{
     margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     font-family: Brittany;
-    
-}
-.titulomi-style{
-    margin: 0px;
+    font-size: xxx-large;
 }
 
 .info-mabe{
@@ -116,6 +113,8 @@ ul {
     display: flex;
     justify-content: center;
     font-family: brittany;
+    font-size: xxx-large;
+    
 }
 .huespedes-photos{
     display: flex;
@@ -192,6 +191,7 @@ ul {
     display: flex;
     justify-content: center;
     font-family: brittany;
+    font-size: xxx-large;
 }
 .perro-image{
     background-color: #fdd33f;
@@ -211,6 +211,7 @@ ul {
     display: flex;
     justify-content: center;
     font-family: brittany;
+    font-size: xxx-large;
 }
 .ubicacion-image{
     height: 23rem;
@@ -240,6 +241,7 @@ ul {
     display: flex;
     justify-content: center;
     font-family: brittany;
+    font-size: xxx-large;
 }
 
 .tituloredes-style{
