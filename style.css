@@ -120,12 +120,14 @@ ul {
 
 .lupita-image{
     height: 200px;
+    transition: 1s;
 }
 .lupita-image:hover{
     transform: scale(2);
 }
 .oddi-image{
     height: 200px;
+    transition: 1s;
 }
 .oddi-image:hover{
     transform: scale(2);
@@ -133,25 +135,28 @@ ul {
 
 .milo-image{
     height: 200px;
+    transition: 1s;
 }
 .milo-image:hover{
     transform: scale(2);
 }
 .zimba-image{
     height: 200px;
+    transition: 1s;
 }
 .zimba-image:hover{
     transform: scale(2);
 }
 .polo-image{
     height: 200px;
+    transition: 1s;
 }
 .polo-image:hover{
     transform: scale(2);
 }
-
 .tomi-image{
     height: 200px;
+    transition: 1s;
 }
 .tomi-image:hover{
     transform: scale(2);
