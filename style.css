@@ -122,10 +122,14 @@ ul {
     font-size: xxx-large;
 }
 
-.huespedes-photos{
-    display: flex;
-    justify-content: center;
+.huespedes{
     background-color: #a6a6a6;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+.fotos-style{
+    margin: 0px 0px 0px 30px;
 }
 
 .lupita-image{
@@ -171,7 +175,62 @@ ul {
 .tomi-image:hover{
     transform: scale(2);
 }
-
+.alma-image{
+    height: 200px;
+    transition: 1s;
+}
+.alma-image:hover{
+    transform: scale(2);
+}
+.gala-image{
+    height: 200px;
+    transition: 1s;
+}
+.gala-image:hover{
+    transform: scale(2);
+}
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.mononu-image{
+    height: 200px;
+    transition: 1s;
+}
+.mononu-image:hover{
+    transform: scale(2);
+}
+.napoleon-image{
+    height: 200px;
+    transition: 1s;
+}
+.napoleon-image:hover{
+    transform: scale(2);
+}
+.oddie-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddie-image:hover{
+    transform: scale(2);
+}
+.roma-image{
+    height: 200px;
+    transition: 1s;
+}
+.roma-image:hover{
+    transform: scale(2);
+}
+.williams-image{
+    height: 200px;
+    transition: 1s;
+}
+.williams-image:hover{
+    transform: scale(2);
+}
 /*INFORMACION SOBRE LA ESTADÍA*/
 .informacion-flex{
     display: flex;
