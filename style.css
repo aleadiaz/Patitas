@@ -24,7 +24,7 @@ margin-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px 150px;
-    margin-bottom: 5px;
+    margin: 0px;
     
 }
 .slogan{
@@ -44,7 +44,8 @@ margin-bottom: 5px;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    margin-bottom: 0px;
+    margin: 0px;
+
 }
    
 a{
@@ -87,7 +88,9 @@ ul {
     font-family: Brittany;
     font-size: xxx-large;
 }
-
+.tituli-ubicacion{
+    margin: 0px 0px 0px 0px;
+}
 .info-mabe{
     display: flex;
     justify-content: center;
@@ -106,20 +109,27 @@ ul {
     
 }
 
-/*HUESPEES*/
+/*HUESPEDES*/
+.titulo-huespedes-style{
+    margin: 0px;
+}
 .huespedes-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #a6a6a6;
     display: flex;
     justify-content: center;
     font-family: brittany;
     font-size: xxx-large;
+}
+
+.huespedes{
+    background-color: #a6a6a6;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     
 }
-.huespedes-photos{
-    display: flex;
-    justify-content: center;
-    background-color: #a6a6a6;
+.fotos-style{
+    margin: 0px 0px 0px 30px;
 }
 
 .lupita-image{
@@ -165,7 +175,62 @@ ul {
 .tomi-image:hover{
     transform: scale(2);
 }
-
+.alma-image{
+    height: 200px;
+    transition: 1s;
+}
+.alma-image:hover{
+    transform: scale(2);
+}
+.gala-image{
+    height: 200px;
+    transition: 1s;
+}
+.gala-image:hover{
+    transform: scale(2);
+}
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.mononu-image{
+    height: 200px;
+    transition: 1s;
+}
+.mononu-image:hover{
+    transform: scale(2);
+}
+.napoleon-image{
+    height: 200px;
+    transition: 1s;
+}
+.napoleon-image:hover{
+    transform: scale(2);
+}
+.oddie-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddie-image:hover{
+    transform: scale(2);
+}
+.roma-image{
+    height: 200px;
+    transition: 1s;
+}
+.roma-image:hover{
+    transform: scale(2);
+}
+.williams-image{
+    height: 200px;
+    transition: 1s;
+}
+.williams-image:hover{
+    transform: scale(2);
+}
 /*INFORMACION SOBRE LA ESTADÍA*/
 .informacion-flex{
     display: flex;
@@ -174,7 +239,7 @@ ul {
 .informacion{
     background-color: #fdd33f;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -186,7 +251,7 @@ ul {
     justify-content: center;
 }
 .tituloinfo-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
     display: flex;
     justify-content: center;
@@ -206,7 +271,7 @@ ul {
     background-color: #a6a6a6;
 }
 .estamos-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #a6a6a6;
     display: flex;
     justify-content: center;
@@ -236,7 +301,7 @@ ul {
     justify-content:center
 }
 .redes-style{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #fdd33f;
     display: flex;
     justify-content: center;
