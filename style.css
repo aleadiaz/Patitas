@@ -121,12 +121,23 @@ ul {
     font-family: brittany;
     font-size: xxx-large;
 }
+.huespedes-style{
+    margin: 0px 0px 0px 0px;
+    background-color: #a6a6a6;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+
 
 .huespedes{
     background-color: #a6a6a6;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    
+}
+.fotos-style{
+    margin: 0px 0px 0px 30px;
 }
 
 
