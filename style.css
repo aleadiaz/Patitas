@@ -50,7 +50,7 @@ margin-bottom: 5px;
    
 a{
     text-decoration: none;
-    color: grey;
+    color: black;
     display: flex;
     justify-content: space-between;
        
@@ -58,7 +58,7 @@ a{
 
 ul {
     list-style: none;
-    border: 2px solid;
+    
    
 }
     
@@ -82,7 +82,6 @@ ul {
 /*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
 .titulomi-style{
     margin: 0px 0px 0px 0px;
-    background-color: #fdd33f;
     display: flex;
     justify-content:center;
     font-family: Brittany;
@@ -94,7 +93,7 @@ ul {
 .info-mabe{
     display: flex;
     justify-content: center;
-    background-color: #fdd33f;
+
 }
 .mabe-image{
     height: 23rem;
@@ -102,7 +101,7 @@ ul {
 /*texto de acerca de mi*/
 /*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
 .reseña{
-    background-color: #fdd33f;
+   
     margin: 120px 0px 0px 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -115,15 +114,13 @@ ul {
 }
 .huespedes-style{
     margin: 0px 0px 0px 0px;
-    background-color: #a6a6a6;
     display: flex;
     justify-content: center;
     font-family: brittany;
     font-size: xxx-large;
 }
 .huespedes-style{
-    margin: 0px 0px 0px 0px;
-    background-color: #a6a6a6;
+    margin: 30px 0px 0px 0px;
     display: flex;
     justify-content: center;
     font-family: brittany;
@@ -132,7 +129,6 @@ ul {
 
 
 .huespedes{
-    background-color: #a6a6a6;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
@@ -246,7 +242,7 @@ ul {
     justify-content: center;
 }
 .informacion{
-    background-color: #fdd33f;
+    
     height: 100%;
     margin-top: 0px;
     text-align: center;
@@ -255,20 +251,20 @@ ul {
 
 .informacion-style{
     margin: 0px 0px 0px 0px;
-    background-color: #fdd33f;
+    
     display: flex;
     justify-content: center;
 }
 .tituloinfo-style{
-    margin: 0px 0px 0px 0px;
-    background-color: #fdd33f;
+    margin: 30px 0px 0px 0px;
+   
     display: flex;
     justify-content: center;
     font-family: brittany;
     font-size: xxx-large;
 }
 .perro-image{
-    background-color: #fdd33f;
+    
     height: 23rem;
     margin-bottom: 0px;
 }
@@ -277,11 +273,11 @@ ul {
 .ubi-ubi{
     display: flex;
     justify-content: space-around;
-    background-color: #a6a6a6;
+  
 }
 .estamos-style{
     margin: 0px 0px 0px 0px;
-    background-color: #a6a6a6;
+   
     display: flex;
     justify-content: center;
     font-family: brittany;
@@ -289,7 +285,7 @@ ul {
 }
 .ubicacion-image{
     height: 23rem;
-    background-color: #a6a6a6;
+    
     margin-right: 50px;
     
 }
@@ -305,13 +301,13 @@ ul {
 
 /*NUESTRS REDES*/
 .redes-color-fondo{
-    background-color: #fdd33f;
+  
     display: flex;
     justify-content:center
 }
 .redes-style{
     margin: 0px 0px 0px 0px;
-    background-color: #fdd33f;
+
     display: flex;
     justify-content: center;
     font-family: brittany;
