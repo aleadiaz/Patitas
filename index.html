@@ -13,23 +13,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
 
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
     <title>Patitas</title>
 </head>
 <body>
 
 <!--COMIENZO DE HEADER-->
-<header class="grid-definicion">
-    <img class="logo-style logo-ubicacion" src="Fotos/logo.PNG" alt="">
+<!--NAVBAR BOOTSTRAP-->
 
-    <nav class="menu-grid">
-        <ul class="menu">
-            <li><a href="#mi">Acerca de mi</a> </li>
-            <li><a href="#huespedes">Mis Huespedes</a></li>
-            <li><a href="#informacion">Información</a></li>
-            <li><a href="#ubicacion">Donde estamos</a></li>
-            <li><a href="#redes">Redes</a></li>
-        </ul>
-    </nav>
+<section class="d-flex justify-content-evenly bg-secondary">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#mi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#huespedes">Mis Huéspedes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#informacion">Información útil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#ubicacion">Donde estamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#redes">Redes sociales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+
 </header>
 
 </section>
@@ -57,57 +79,69 @@
    </section>
 </section>
 
-<!--MIS HUESPEDES-->
+<!--MIS HUESPEDES BOOTSTRAP-->
 <h2 class="titulo-huespedes-style">
 
     <section id="huespedes fotos-style">
 
     <section id="huespedes">
-    <div class="huespedes-style">Ellos ya vinieron...</div>
+    <div class="huespedes-style mt-3 bg-secondary">Ellos ya vinieron...</div>
 </h2>
-    <section class="huespedes">
-        <div>
-            <img class="lupita-image" src="Fotos/Lupita-nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="polo-image" src="Fotos/Polo-nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="oddi-image" src="Fotos/Mia-nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="zimba-image" src="Fotos/Zimba-nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="milo-image" src="Fotos/Olaf-nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="tomi-image" src="Fotos/Tomi-nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="alma-image" src="Fotos/Alma nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="gala-image" src="Fotos/Gala nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="milo-image" src="Fotos/Milo nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="mononu-image" src="Fotos/Mononu nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="napoleon-image" src="Fotos/Oddie nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="oddie-image" src="Fotos/Napoleon nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="roma-image" src="Fotos/Williams nombre.jpg" alt="">
-        </div>
-        <div>
-            <img class="williams-image" src="Fotos/Roma nombre.jpg" alt="">
-        </div>
+    <section class="d-flex justify-content-center bg-secondary">
+        <div id="carouselExampleInterval" class="carousel slide w-25 h-50" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Fotos/Lupita-nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="Fotos/Polo-nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Mia-nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Zimba-nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Olaf-nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Tomi-nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Alma nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Gala nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Milo nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Mononu nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Oddie nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Napoleon nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Williams nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Fotos/Roma nombre.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
 </section>
 
@@ -127,7 +161,7 @@
         </p>
     
         <p>  
-            REQUISITOS: Todos los huéspedes deben venir bañados con vacinación completa y tratamiento antipulgas y parásitos.
+            REQUISITOS: Todos los huéspedes deben venir bañados con vacunación completa y tratamiento antipulgas y parásitos.
             Deben traer sus objetos personales (camita, jugutes, comida, carnet de vacunación y lugares de atención habituales).
         </p>
         <p>
@@ -185,9 +219,12 @@
     </section>
    
 
-s</section>
+</section>
 </footer>
 
 
+
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

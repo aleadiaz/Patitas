@@ -3,22 +3,6 @@ body{
 }
 
 /*logo*/
-.grid-definicion{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    
-    }
-.logo-style{
-    height: 100px;
-    padding: 0px;
-    
-}
-.logo-ubicacion{
-grid-column: 2;
-height: 100%;
-margin-bottom: 5px;
-}
 /*foto slogan*/
 .grid-style{
     display: grid;
@@ -134,7 +118,7 @@ ul {
 .huespedes{
     background-color: #a6a6a6;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+  
 }
 .fotos-style{
     margin: 0px 0px 0px 30px;
