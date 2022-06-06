@@ -20,33 +20,26 @@ height: 100%;
 margin-bottom: 5px;
 }
 /*foto slogan*/
-.grid-style{
+.diseño-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 150px 150px;
-    margin: 0px;
-    
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 3rem;
 }
-.slogan{
-    height: 200px;
-    padding: 0px;
-    
+.diseño-slogan{
+    grid-column: 2;
+    height: 200%
 }
+
+
 /*Por favor necesito que me ayudes a que la foto del slogan quede al mismo nivel que la navbar de margen derecho */
 @font-face {
     font-family: Brittany;
     src: url('BrittanySignature.ttf');
 }
-.slogan-tipo{
-    width: 100%;
-    height: 100%;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    margin: 0px;
 
-}
    
 a{
     text-decoration: none;
@@ -93,20 +86,14 @@ ul {
 .info-mabe{
     display: flex;
     justify-content: center;
-
+    margin-bottom: 3rem;
 }
 .mabe-image{
     height: 23rem;
+    margin-left: 1rem;
 }
 /*texto de acerca de mi*/
 /*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
-.reseña{
-   
-    margin: 120px 0px 0px 0px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    
-}
 
 /*HUESPEDES*/
 .titulo-huespedes-style{
@@ -120,7 +107,7 @@ ul {
     font-size: xxx-large;
 }
 .huespedes-style{
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 25px 0px;
     display: flex;
     justify-content: center;
     font-family: brittany;
@@ -130,7 +117,11 @@ ul {
 
 .huespedes{
     display: grid;
+    margin-left: 1rem;
     grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 45px;
+    
 }
 .fotos-style{
     margin: 0px 0px 0px 30px;
@@ -237,61 +228,51 @@ ul {
     transform: scale(2);
 }
 /*INFORMACION SOBRE LA ESTADÍA*/
+.informacion{
+    margin-bottom: 3rem;
+}
 .informacion-flex{
     display: flex;
     justify-content: center;
 }
-.informacion{
-    
-    height: 100%;
-    margin-top: 0px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
 
 .informacion-style{
     margin: 0px 0px 0px 0px;
-    
     display: flex;
     justify-content: center;
 }
 .tituloinfo-style{
     margin: 30px 0px 0px 0px;
-   
     display: flex;
     justify-content: center;
     font-family: brittany;
     font-size: xxx-large;
 }
 .perro-image{
-    
     height: 23rem;
     margin-bottom: 0px;
 }
 
 /*DONDE ESTAMOS*/
 .ubi-ubi{
-    display: flex;
-    justify-content: space-around;
-  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 .estamos-style{
     margin: 0px 0px 0px 0px;
-   
     display: flex;
     justify-content: center;
     font-family: brittany;
     font-size: xxx-large;
 }
-.ubicacion-image{
-    height: 23rem;
-    
-    margin-right: 50px;
-    
-}
+
 .mapa-image{
    height: 15rem;
    margin-top: 50px;
+   grid-area: 1;
    
 }
 
@@ -307,7 +288,6 @@ ul {
 }
 .redes-style{
     margin: 0px 0px 0px 0px;
-
     display: flex;
     justify-content: center;
     font-family: brittany;
