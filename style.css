@@ -87,12 +87,22 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+    
 }
 .mabe-image{
     height: 23rem;
     margin-left: 1rem;
 }
 /*texto de acerca de mi*/
+.texto-mi{
+    margin: 0px 0px 0px 50px;
+    display: table;
+}
+.texto-mi-style{
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
 /*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
 
 /*HUESPEDES*/
@@ -228,6 +238,17 @@ ul {
     transform: scale(2);
 }
 /*INFORMACION SOBRE LA ESTADÍA*/
+.informacion-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    display: table;
+}    
+.tamano-texto{
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
 .informacion{
     margin-bottom: 3rem;
 }
@@ -236,11 +257,7 @@ ul {
     justify-content: center;
 }
 
-.informacion-style{
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-}
+
 .tituloinfo-style{
     margin: 30px 0px 0px 0px;
     display: flex;
