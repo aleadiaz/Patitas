@@ -1,0 +1,31 @@
+.grid-definicion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+    .logo-style{
+        height: 100px;
+        padding: 0px;
+        grid-column: 2;
+        height: 100%;
+        margin-bottom: 5px;
+        }
+        .menu-grid{
+            display: grid;
+            list-style: none;
+            grid-area: 2;
+            grid-column-start: 1;
+            grid-column-end: 4;
+
+        .menu{
+                color: black;
+                width: 95%;
+                display: flex;
+                justify-content:space-around;
+                font-family: 'Montserrat', sans-serif;
+            }  
+            
+            
+        }
+        
+    }

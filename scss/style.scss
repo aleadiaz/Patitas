@@ -1,0 +1,326 @@
+@import "header";
+a {
+    text-decoration: none;
+    }
+    
+    ul {
+    list-style: none;
+    }
+
+body{
+    background-color: white;
+}
+
+/*logo*/
+
+
+/*foto slogan*/
+.diseño-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 3rem;
+}
+.diseño-slogan{
+    grid-column: 2;
+    height: 200%
+}
+
+
+/*Por favor necesito que me ayudes a que la foto del slogan quede al mismo nivel que la navbar de margen derecho */
+@font-face {
+    font-family: Brittany;
+    src: url('BrittanySignature.ttf');
+}
+
+   
+a{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+
+    
+/*NAV BAR*/
+.menu-grid{
+    display: grid;
+    list-style: none;
+    grid-area: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    
+}
+.menu{
+    color: black;
+    width: 95%;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Montserrat', sans-serif;
+}
+/*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
+.titulomi-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content:center;
+    font-family: Brittany;
+    font-size: xxx-large;
+}
+.tituli-ubicacion{
+    margin: 0px 0px 0px 0px;
+}
+.info-mabe{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+.mabe-image{
+    height: 23rem;
+    margin-left: 1rem;
+}
+/*texto de acerca de mi*/
+.texto-mi{
+    margin: 0px 0px 0px 50px;
+    display: table;
+}
+.texto-mi-style{
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+/*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
+
+/*HUESPEDES*/
+.titulo-huespedes-style{
+    margin: 0px;
+}
+.huespedes-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+.huespedes-style{
+    margin: 30px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+
+
+.huespedes{
+    display: grid;
+    margin-left: 1rem;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 45px;
+    
+}
+.fotos-style{
+    margin: 0px 0px 0px 30px;
+}
+
+
+.lupita-image{
+    height: 200px;
+    transition: 1s;
+}
+.lupita-image:hover{
+    transform: scale(2);
+}
+.oddi-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddi-image:hover{
+    transform: scale(2);
+}
+
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.zimba-image{
+    height: 200px;
+    transition: 1s;
+}
+.zimba-image:hover{
+    transform: scale(2);
+}
+.polo-image{
+    height: 200px;
+    transition: 1s;
+}
+.polo-image:hover{
+    transform: scale(2);
+}
+.tomi-image{
+    height: 200px;
+    transition: 1s;
+}
+.tomi-image:hover{
+    transform: scale(2);
+}
+.alma-image{
+    height: 200px;
+    transition: 1s;
+}
+.alma-image:hover{
+    transform: scale(2);
+}
+.gala-image{
+    height: 200px;
+    transition: 1s;
+}
+.gala-image:hover{
+    transform: scale(2);
+}
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.mononu-image{
+    height: 200px;
+    transition: 1s;
+}
+.mononu-image:hover{
+    transform: scale(2);
+}
+.napoleon-image{
+    height: 200px;
+    transition: 1s;
+}
+.napoleon-image:hover{
+    transform: scale(2);
+}
+.oddie-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddie-image:hover{
+    transform: scale(2);
+}
+.roma-image{
+    height: 200px;
+    transition: 1s;
+}
+.roma-image:hover{
+    transform: scale(2);
+}
+.williams-image{
+    height: 200px;
+    transition: 1s;
+}
+.williams-image:hover{
+    transform: scale(2);
+}
+/*INFORMACION SOBRE LA ESTADÍA*/
+.informacion-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    display: table;
+}    
+.tamano-texto{
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+.informacion{
+    margin-bottom: 3rem;
+}
+.informacion-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tituloinfo-style{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+.perro-image{
+    height: 23rem;
+    margin-bottom: 0px;
+}
+
+/*DONDE ESTAMOS*/
+.ubi-ubi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.estamos-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+
+.mapa-image{
+   height: 15rem;
+   margin-top: 50px;
+   grid-area: 1;
+   
+}
+
+.tituloestamos-style{
+    margin: 0px;
+}
+
+/*NUESTRS REDES*/
+.redes-color-fondo{
+  
+    display: flex;
+    justify-content:center
+}
+.redes-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+
+.tituloredes-style{
+    margin: 0px;
+}
+.foto-redes3{
+    height: 23rem;
+     
+}
+
+.ig-style{
+    height: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.fb-style{
+    height: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.wa-style{
+    height: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
