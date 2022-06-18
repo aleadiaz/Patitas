@@ -1,0 +1,23 @@
+.tituloestamos-style{
+    margin: 0px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+.ubi-ubi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.mapa-image{
+   height: 15rem;
+   margin-top: 50px;
+   grid-area: 1;
+   
+}
+

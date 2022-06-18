@@ -18,6 +18,9 @@
   grid-column-start: 1;
   grid-column-end: 4;
 }
+.grid-definicion .menu-grid .ul {
+  list-style: none;
+}
 .grid-definicion .menu-grid .menu {
   color: black;
   width: 95%;
@@ -25,21 +28,13 @@
   justify-content: space-around;
   font-family: "Montserrat", sans-serif;
 }
-
-a {
+.grid-definicion .menu-grid .a {
   text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
-ul {
-  list-style: none;
-}
-
-body {
-  background-color: white;
-}
-
-/*logo*/
-/*foto slogan*/
 .diseño-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -48,50 +43,17 @@ body {
   grid-row-gap: 0px;
   margin-bottom: 3rem;
 }
-
-.diseño-slogan {
+.diseño-grid .diseño-slogan {
   grid-column: 2;
   height: 200%;
 }
 
-/*Por favor necesito que me ayudes a que la foto del slogan quede al mismo nivel que la navbar de margen derecho */
-@font-face {
-  font-family: Brittany;
-  src: url("BrittanySignature.ttf");
-}
-a {
-  color: black;
-  display: flex;
-  justify-content: space-between;
-}
-
-/*NAV BAR*/
-.menu-grid {
-  display: grid;
-  list-style: none;
-  grid-area: 2;
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.menu {
-  color: black;
-  width: 95%;
-  display: flex;
-  justify-content: space-around;
-  font-family: "Montserrat", sans-serif;
-}
-
-/*ACERCA DE MI - Necesito que me indiques como poder agrandar el tamaño de la letra*/
 .titulomi-style {
   margin: 0px 0px 0px 0px;
   display: flex;
   justify-content: center;
   font-family: Brittany;
   font-size: xxx-large;
-}
-
-.tituli-ubicacion {
   margin: 0px 0px 0px 0px;
 }
 
@@ -100,8 +62,7 @@ a {
   justify-content: center;
   margin-bottom: 3rem;
 }
-
-.mabe-image {
+.info-mabe .mabe-image {
   height: 23rem;
   margin-left: 1rem;
 }
@@ -111,25 +72,14 @@ a {
   margin: 0px 0px 0px 50px;
   display: table;
 }
-
-.texto-mi-style {
+.texto-mi .texto-mi-style {
   font-weight: bold;
   display: table-cell;
   vertical-align: middle;
 }
 
-/*Cuando la pantalla esta minimizada se ve pérfecto, pero cuando se pone la pantalla completa el texto me queda todo en la parte superior de la caja de texto*/
-/*HUESPEDES*/
 .titulo-huespedes-style {
   margin: 0px;
-}
-
-.huespedes-style {
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  justify-content: center;
-  font-family: brittany;
-  font-size: xxx-large;
 }
 
 .huespedes-style {
@@ -151,154 +101,75 @@ a {
 .fotos-style {
   margin: 0px 0px 0px 30px;
 }
-
-.lupita-image {
+.fotos-style .lupita-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.lupita-image:hover {
   transform: scale(2);
 }
-
-.oddi-image {
+.fotos-style .oddi-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.oddi-image:hover {
   transform: scale(2);
 }
-
-.milo-image {
+.fotos-style .milo-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.milo-image:hover {
   transform: scale(2);
 }
-
-.zimba-image {
+.fotos-style .zimba-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.zimba-image:hover {
   transform: scale(2);
 }
-
-.polo-image {
+.fotos-style .polo-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.polo-image:hover {
   transform: scale(2);
 }
-
-.tomi-image {
+.fotos-style .tomi-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.tomi-image:hover {
   transform: scale(2);
 }
-
-.alma-image {
+.fotos-style .alma-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.alma-image:hover {
   transform: scale(2);
 }
-
-.gala-image {
+.fotos-style .gala-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.gala-image:hover {
   transform: scale(2);
 }
-
-.milo-image {
+.fotos-style .milo-image:hover {
   height: 200px;
   transition: 1s;
-}
-
-.milo-image:hover {
   transform: scale(2);
 }
-
-.mononu-image {
+.fotos-style .mononu-image {
   height: 200px;
   transition: 1s;
-}
-
-.mononu-image:hover {
   transform: scale(2);
 }
-
-.napoleon-image {
+.fotos-style .napoleon-image {
   height: 200px;
   transition: 1s;
-}
-
-.napoleon-image:hover {
   transform: scale(2);
 }
-
-.oddie-image {
+.fotos-style .oddie-image {
   height: 200px;
   transition: 1s;
-}
-
-.oddie-image:hover {
   transform: scale(2);
 }
-
-.roma-image {
+.fotos-style .roma-image {
   height: 200px;
   transition: 1s;
-}
-
-.roma-image:hover {
   transform: scale(2);
 }
-
-.williams-image {
+.fotos-style .williams-image {
   height: 200px;
   transition: 1s;
-}
-
-.williams-image:hover {
   transform: scale(2);
-}
-
-/*INFORMACION SOBRE LA ESTADÍA*/
-.informacion-style {
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  justify-content: center;
-  display: table;
-}
-
-.tamano-texto {
-  font-weight: bold;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.informacion {
-  margin-bottom: 3rem;
-}
-
-.informacion-flex {
-  display: flex;
-  justify-content: center;
 }
 
 .tituloinfo-style {
@@ -309,12 +180,31 @@ a {
   font-size: xxx-large;
 }
 
+.informacion-style {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  display: table;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
 .perro-image {
   height: 23rem;
   margin-bottom: 0px;
 }
 
-/*DONDE ESTAMOS*/
+.tituloestamos-style {
+  margin: 0px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  font-family: brittany;
+  font-size: xxx-large;
+}
+
 .ubi-ubi {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -323,40 +213,18 @@ a {
   grid-row-gap: 0px;
 }
 
-.estamos-style {
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  justify-content: center;
-  font-family: brittany;
-  font-size: xxx-large;
-}
-
 .mapa-image {
   height: 15rem;
   margin-top: 50px;
   grid-area: 1;
 }
 
-.tituloestamos-style {
-  margin: 0px;
-}
-
-/*NUESTRS REDES*/
-.redes-color-fondo {
-  display: flex;
-  justify-content: center;
-}
-
-.redes-style {
+.tituloredes-style {
   margin: 0px 0px 0px 0px;
   display: flex;
   justify-content: center;
   font-family: brittany;
   font-size: xxx-large;
-}
-
-.tituloredes-style {
-  margin: 0px;
 }
 
 .foto-redes3 {
@@ -379,6 +247,15 @@ a {
   height: 50px;
   cursor: pointer;
   margin-top: 40px;
+}
+
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: Brittany;
+  src: url("BrittanySignature.ttf");
 }
 
 /*# sourceMappingURL=style.css.map */

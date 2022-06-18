@@ -1,0 +1,30 @@
+.titulomi-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content:center;
+    font-family: Brittany;
+    font-size: xxx-large;
+    margin: 0px 0px 0px 0px;
+}
+
+.info-mabe{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    .mabe-image{
+        height: 23rem;
+        margin-left: 1rem;
+    }
+    
+}
+/*texto de acerca de mi*/
+.texto-mi{
+    margin: 0px 0px 0px 50px;
+    display: table;
+    .texto-mi-style{
+        font-weight: bold;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
