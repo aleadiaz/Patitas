@@ -2,12 +2,20 @@
     margin: 0px;
 }
 .huespedes-style{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: xxx-large;
+}
+.huespedes-style{
     margin: 30px 0px 25px 0px;
     display: flex;
     justify-content: center;
     font-family: brittany;
     font-size: xxx-large;
 }
+
 
 .huespedes{
     display: grid;
@@ -19,89 +27,105 @@
 }
 .fotos-style{
     margin: 0px 0px 0px 30px;
-    
-    .lupita-image:hover{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
+}
 
-    .oddi-image:hover {
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-    
-    .milo-image:hover {
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-    
-    .zimba-image:hover{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-    
-    .polo-image:hover{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
 
-    .tomi-image:hover{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }   
-
-    .alma-image:hover{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }   
-
-    .gala-image:hover{
+.lupita-image{
     height: 200px;
     transition: 1s;
+}
+.lupita-image:hover{
     transform: scale(2);
-    }
+}
+.oddi-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddi-image:hover{
+    transform: scale(2);
+}
 
-    .milo-image:hover{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-
-    .mononu-image{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-
-
-    .napoleon-image{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-
-    .oddie-image{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-
-    .roma-image{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
-
-    .williams-image{
-        height: 200px;
-        transition: 1s;
-        transform: scale(2);
-    }
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.zimba-image{
+    height: 200px;
+    transition: 1s;
+}
+.zimba-image:hover{
+    transform: scale(2);
+}
+.polo-image{
+    height: 200px;
+    transition: 1s;
+}
+.polo-image:hover{
+    transform: scale(2);
+}
+.tomi-image{
+    height: 200px;
+    transition: 1s;
+}
+.tomi-image:hover{
+    transform: scale(2);
+}
+.alma-image{
+    height: 200px;
+    transition: 1s;
+}
+.alma-image:hover{
+    transform: scale(2);
+}
+.gala-image{
+    height: 200px;
+    transition: 1s;
+}
+.gala-image:hover{
+    transform: scale(2);
+}
+.milo-image{
+    height: 200px;
+    transition: 1s;
+}
+.milo-image:hover{
+    transform: scale(2);
+}
+.mononu-image{
+    height: 200px;
+    transition: 1s;
+}
+.mononu-image:hover{
+    transform: scale(2);
+}
+.napoleon-image{
+    height: 200px;
+    transition: 1s;
+}
+.napoleon-image:hover{
+    transform: scale(2);
+}
+.oddie-image{
+    height: 200px;
+    transition: 1s;
+}
+.oddie-image:hover{
+    transform: scale(2);
+}
+.roma-image{
+    height: 200px;
+    transition: 1s;
+}
+.roma-image:hover{
+    transform: scale(2);
+}
+.williams-image{
+    height: 200px;
+    transition: 1s;
+}
+.williams-image:hover{
+    transform: scale(2);
 }
